@@ -61,8 +61,7 @@ class Game{
                          fill("red");
                          textSize(20);
                          // add code to display the player name on the respective basket
-                         text(players[1].input,player1.positionX,player1.positionY)
-                         text(players[2].input,player2.positionX,player2.positionY)
+                         text(allPlayers[plr].name ,x-25,y+25);
                      }
                     
                          textSize(25);
